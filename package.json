@@ -1,0 +1,13 @@
+{
+  "name": "encounter-generator",
+  "version": "1.0.0",
+  "description": "An encounter generator for Dungeons an Dragons 5e",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --server",
+    "dev": "browser-sync start --server --watch --files 'src/**/*' ./index.html"
+  },
+  "dependencies": {
+    "browser-sync": "^2.27.4"
+  }
+}
