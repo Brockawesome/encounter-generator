@@ -10,8 +10,8 @@
 <body>
 
   <h1>Greetings, and well met!</h1>
- <player-count-div> <label for="player-count">How many players?</label>
-  <input type="number" name="player-count" id="player-count"></player-count-div>
+ <player-div> <label for="player-count">How many players?</label>
+  <input type="number" name="player-count" id="player-count"></player-div>
   <hr>
   <section id="player-characteristics"></section>
 
@@ -25,10 +25,10 @@
     let playerCharacteristicsHtml = ''
     for (let index = 0; index < playerCount; index++) {
       playerCharacteristicsHtml +=
-      `Name: <label for="player${index}-name"></label>
+      `<player-div>Name: <label for="player${index}-name"></label>
       <input type="text" name="player${index}-name" id="player${index}-name">
       Level: <label for="player${index}-level"></label>
-      <input type="number" name="player${index}-level" id="player${index}-level">
+      <input type="number" name="player${index}-level" id="player${index}-level"></player-div>
       <br>`
     }
     playerCharacteristicsElement.innerHTML = playerCharacteristicsHtml
