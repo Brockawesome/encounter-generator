@@ -125,192 +125,57 @@
 		font-weight: normal;
 	}
 player-div {
-	padding: 10px;
+	font-family: "Scaly Sans Caps Bold";
+	font-weight: bold;
+	font-style: normal;
+	padding-bottom: 100px;
 	margin: 20px;
-	text-align-last: center;
-	min-height: 75px;
+	
 
 }
+
 br {
-	padding-bottom: 50
-		px;
+	margin-bottom: 30px;
 }
 
 #player-characteristics {
 	font-family: "Scaly Sans Caps Bold";
-	padding: 2%;
-	min-height: 60px;
-
-}
-
-#player-count {
-	font-family: "Scaly Sans Caps Bold";
 	font-family: inherit;
 	padding: 50;
-	margin: 50;
+	margin: 150;
 	box-sizing: border-box;
 	font-size: 100%;
-}
 
-label {
+}
+section {
 	font-family: "Scaly Sans Caps Bold";
-	padding: 10px;
+	font-weight: bold;
+	font-style: normal;
+	padding: 5px;
+	margin: 20px;
+	text-align-last: left;
+	min-height: 75px;
 }
-input, textarea, select, button {
-	font-family: inherit;
-	padding: 0;
-	margin: 0;
+
+input {
+	font-family: "Scaly Sans Caps Bold";
+	padding: 1%;
+	margin: 10px;
 	box-sizing: border-box;
 	font-size: 100%;
-}
-#player0-level {
-	font-family: inherit;
-	box-sizing: border-box;
-	padding: 50;
-	margin: 50;
-	font-size: 100%;
-}
-#player1-level {
-	font-family: inherit;
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-size: 100%;
-}
-#player2-level {
-	font-family: inherit;
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-size: 100%;
-}
-#player3-level {
-	font-family: inherit;
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-size: 100%;
-}
-#player4-level {
-	font-family: inherit;
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-size: 100%;
-}
-#player5-level {
-	font-family: inherit;
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-size: 100%;
-}
-#player6-level {
-	font-family: inherit;
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-size: 100%;
-}
-#player7-level {
-	font-family: inherit;
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-size: 100%;
-}
-#player8-level {
-	font-family: inherit;
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-size: 100%;
-}
-#player9-level {
-	font-family: inherit;
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-size: 100%;
-}
-#player0-name {
-	font-family: inherit;
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-size: 100%;
-}
-#player1-name {
-	font-family: inherit;
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-size: 100%;
-}
-#player2-name {
-	font-family: inherit;
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-size: 100%;
-}
-#player3-name {
-	font-family: inherit;
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-size: 100%;
-}
-#player4-name {
-	font-family: inherit;
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-size: 100%;
-}
-#player5-name {
-	font-family: inherit;
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-size: 100%;
-}
-#player6-name {
-	font-family: inherit;
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-size: 100%;
-}
-#player7-name {
-	font-family: inherit;
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-size: 100%;
-}
-#player8-name {
-	font-family: inherit;
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-size: 100%;
-}
-#player9-name {
-	font-family: inherit;
-	padding: 0;
-	margin: 0;
-	box-sizing: border-box;
-	font-size: 100%;
+	display: table-cell;
+    vertical-align: middle;
 }
 
 
-h1 {
+
+.title {
 	font-family: "Nodesto Caps Condensed Bold";
 	font-size: 3em;
 	padding-top: 50px;
 	padding-bottom: 20px;
 	text-decoration-color: darkred;
+	margin:20px;
 	
 }
 hr {
@@ -318,4 +183,46 @@ hr {
 	margin-top: 10px;
 	
 }
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
 
