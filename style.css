@@ -159,12 +159,12 @@ section {
 
 input {
 	font-family: "Scaly Sans Caps Bold";
-	padding: 1%;
+	padding: 10px;
 	margin: 10px;
 	box-sizing: border-box;
 	font-size: 100%;
-	display: table-cell;
     vertical-align: middle;
+	
 }
 
 
